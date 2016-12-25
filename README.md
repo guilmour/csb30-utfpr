@@ -18,3 +18,12 @@
 
 #### 1.5 Polished Goals Statement
   - zsd
+
+### 2. Calendar Tasks and Dates
+
+| Goal:  |  |  |  |  |
+|-------------|--------------|------------------|--------------|------------|
+| Target Date | Action Tasks | Materials Needed | "To Do" Date | Evaluation |
+| March 7 | Fazer altas paradas | Caneta | March 8 | - [ x ] |
+|  |  |  |  |  |
+|  |  |  |  |  |
