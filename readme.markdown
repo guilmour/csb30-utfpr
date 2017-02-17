@@ -8,3 +8,18 @@
  - [Exercises](/5.%20Exercises)
  - [Exams](/6.%20Exams)
 
+
+### CSB30 – Introdução a Bancos de Dados
+Período: 5 <br>
+Horas-aula/semana: 4 <br>
+Carga Horária em horas-aula: AT(30) AP(30) AD(08) APS(04) TA(72) <br>
+Carga Horária em horas: HT(30) HP(30) TH(60) <br>
+Pré-requisitos: Estrutura de Dados 2, Técnicas de Programação, Matemática Discreta. <br>
+
+Ementa: 
+ - Modelagem e Projeto de Bancos de Dados. 
+ - Arquitetura de Sistemas
+ - Gerenciadores de Bancos de Dados. 
+ - Sistemas Gerenciadores de Bancos de Dados atuais.
+ - Linguagens de Definição e Manipulação de Dados. 
+ - Desenvolvimento de aplicações de Banco de Dados.
