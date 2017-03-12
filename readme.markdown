@@ -6,7 +6,7 @@
  - [Bibliography](/3.%20Bibliography)
  - [Notes](/4.%20Notes)
  - [Exercises](/5.%20Exercises)
-  - [x] pset01 - Data Models and XML
+  - [x] [pset01 - Data Models and XML](/5.%20Exercises/pset01)
  - [Exams](/6.%20Exams)
 
 
