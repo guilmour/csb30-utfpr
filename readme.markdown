@@ -6,7 +6,9 @@
  - [Bibliography](/3.%20Bibliography)
  - [Notes](/4.%20Notes)
  - [Exercises](/5.%20Exercises)
+  - [x] pset01 - Data Models and XML
  - [Exams](/6.%20Exams)
+
 
 
 ### CSB30 – Introdução a Bancos de Dados
