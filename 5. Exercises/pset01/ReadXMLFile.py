@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#code by Guilmour Rossi
 
 from __future__ import division
 from xml.dom.minidom import parse
@@ -82,7 +83,7 @@ print('File dadosMarvel\herois_bad.csv generated successfully!')
 f.close()
 
 # calculando IMC Hulk
-f = open('dadosMarvel/herois.csv', 'w')
+
 for hero in heroes:
    s = hero.getElementsByTagName('name')[0]
    if s.childNodes[0].data == "Hulk":
@@ -92,7 +93,7 @@ for hero in heroes:
             imc = int(s.childNodes[0].data)
          if attributes[x] == "weight_kg":
             imc = (int(s.childNodes[0].data))/(imc*imc)
-f.close()
+
 
 print('No nosso mini-universo Marvel, %d herois sao bons e %d herois sao maus.' % (n_good, n_bad)) 
 print('A media de peso de nossos herois eh de: %dkg' % (pesototal/n_heroes))
