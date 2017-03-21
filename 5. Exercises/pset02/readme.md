@@ -1,5 +1,5 @@
 ## 01) Exercício: Modelagem ER
-  - [ ] Feito
+  - [x] Feito
   
 Modele em um diagrama ER o banco de dados para o serviço de microblogs e rede social Twitter. O serviço permite o cadastro de usuários que devem informar nome, e-mail, e um identificador único para a conta. Usuários podem seguir (follow) outros usuários. Usuários também podem bloquear outros usuários.
 
@@ -9,6 +9,9 @@ Descreva no seu diagrama todas as entidades e relacionamentos relevantes, atribu
 
 ## Submissão
 Submeta abaixo um único arquivo de imagem no formato JPG ou PNG. O modelo pode ser feito em qualquer software de edição de imagens ou feito a mão e escaneado/fotografado. Independentemente da abordagem usada, os componentes devem estar claros. Submissões que não atenda à especificação não serão corrigidas.
+
+## Entrega
+![Modelando Twitter](ModellingTwitter.png)
 
 <hr>
 
