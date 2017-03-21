@@ -1,4 +1,4 @@
-## Exercício: Modelagem ER
+## 01) Exercício: Modelagem ER
 Modele em um diagrama ER o banco de dados para o serviço de microblogs e rede social Twitter. O serviço permite o cadastro de usuários que devem informar nome, e-mail, e um identificador único para a conta. Usuários podem seguir (follow) outros usuários. Usuários também podem bloquear outros usuários.
 
 Usuários postam mensagens (tweets). Mensagens possuem identificador, conteúdo (texto) e timestamp do momento de postagem (estilo Unix time, ou seja, representa o número total de segundos decorridos desde 0:00 de 1/1/1970). Mensagens podem mencionar outros usuários (conhecidos como at ou @) e mencionar tópicos (conhecidos como hashtags ou #). Tópicos possuem id e rótulo (e.g. "banco_de_dados”). Usuários e tópicos são automaticamente extraídos do texto do post no momento de envio com base nas strings que começam por @ ou #. Por exemplo, a mensagem "Hoje é dia de prova de #banco_de_dados! @UTFPR @BSI” referencia o tópico "banco_de_dados” e os usuários "UTFPR” e "BSI”. Mensagens podem ser repostadas (re-tweets), marcadas como favoritas, ou respondidas por qualquer usuário. Mensagens de resposta são novas mensagens que fazem referência à mensagem original. Mensagens repostadas são idênticas às originais, mas fazem referência aos usuários que as repostaram.
@@ -10,7 +10,7 @@ Submeta abaixo um único arquivo de imagem no formato JPG ou PNG. O modelo pode 
 
 <hr>
 
-## Trabalho prático - Modelagem
+## 02) Trabalho prático - Modelagem
 ### Descrição do mini-mundo
 Nossa rede social deve registrar as pessoas da turma (alunos, monitores e professores indistintamente), com um login único, nome completo e cidade natal. As pessoas podem registrar seus conhecidos da turma na rede social. A definição de quem uma pessoa conhece é um conceito individual e pode variar na rede. Por exemplo, algumas pessoas só considerarão como conhecidos os amigos mais próximos, outras considerarão como conhecidos pessoas que conhecem de vista. Portanto, o relacionamento pode não ser recíproco.
 
