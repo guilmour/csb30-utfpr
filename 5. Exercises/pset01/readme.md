@@ -1,4 +1,5 @@
 # Trabalho Prático: Modelos de Dados e XML
+- [x] Feito
 
 Neste trabalho exploraremos a leitura de dados XML usando o modelo DOM e manipulação de dados em arquivo usando Python ou Java. Este e os demais trabalhos devem ser feitos em grupo, de acordo com os grupos cadastrados. Use o fórum do moodle caso você precise encontrar um parceiro(a).
 
