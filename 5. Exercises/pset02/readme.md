@@ -16,7 +16,7 @@ Submeta abaixo um único arquivo de imagem no formato JPG ou PNG. O modelo pode 
 <hr>
 
 ## 02) Trabalho prático - Modelagem
-- [ ] Feito
+- [x] Feito
 ### Descrição do mini-mundo
 Nossa rede social deve registrar as pessoas da turma (alunos, monitores e professores indistintamente), com um login único, nome completo e cidade natal. As pessoas podem registrar seus conhecidos da turma na rede social. A definição de quem uma pessoa conhece é um conceito individual e pode variar na rede. Por exemplo, algumas pessoas só considerarão como conhecidos os amigos mais próximos, outras considerarão como conhecidos pessoas que conhecem de vista. Portanto, o relacionamento pode não ser recíproco.
 
@@ -33,3 +33,6 @@ Implemente um modelo ER contendo apenas os conceitos descritos acima. Casa algum
 ### Submissão
 A submissão será corrigida no GitLab. Implemente sua solução e faça o commit/push para o repositório do grupo que foi informado para o Professor. Certifique-se de que o arquivo README.md esteja atualizado com os nomes, RAs e logins GitLab dos integrantes do grupo. Implemente sua solução no diretório "02 - Modelagem” que foi criado automaticamente no seu repositório após a clonagem do repositório do professor. Seu modelo deve ser um arquivo de imagem (PNG). O modelo pode ser feito em qualquer programa de desenho. Armazene os fontes no GitLab. Se preferir, o aluno pode digitalizar um modelo feito em papel e caneta. Independente da opção, a submissão só será corrigida se todos os componentes de modelo estiverem claros e fáceis de ler. Submeta abaixo um texto com o link para o repositório do grupo e o resultado do comando "git log HEAD origin/master”. Submissões que não atendem às especificações não serão consideradas.
 Link para submissão: http://moodle.dainf.ct.utfpr.edu.br/mod/assign/view.php?id=22306
+
+## Entrega
+![FaceMovies](FaceMovies.png)
