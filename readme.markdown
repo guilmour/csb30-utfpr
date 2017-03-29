@@ -7,7 +7,8 @@
  - [Notes](/4.%20Notes)
  - [Exercises](/5.%20Exercises)
   - [x] [pset01 - Data Models and XML](/5.%20Exercises/pset01)
-  - [ ] [pset02 - Modelling](/5.%20Exercises/pset02)  
+  - [x] [pset02 - Modelling](/5.%20Exercises/pset02)  
+  - [ ] [pset03 - Mapeamento Conceitual para Lógico](/5.%20Exercises/pset03)  
  - [Exams](/6.%20Exams)
 
 
