@@ -1,0 +1,34 @@
+CREATE TABLE Pessoa (
+	Login VARCHAR(25) NOT NULL,
+	Nome_completo VARCHAR(50) NOT NULL,
+	Cidade_natal VARCHAR(15) NOT NULL,
+	PRIMARY KEY(Login)
+);
+
+CREATE TABLE Filme (
+	Filme_ID INTEGER,
+	Nome VARCHAR(25) NOT NULL,
+	Data_lancamento INTEGER,
+	PRIMARY KEY(Filme_ID)
+);
+
+CREATE TABLE Artistas_Musicais(
+	Artista_ID INTEGER,
+	Nome_artistico VARCHAR(30) NOT NULL,
+	Pais VARCHAR(20) NOT NULL,
+	Genero VARCHAR(50) NOT NULL,
+	PRIMARY KEY(Artista_ID)
+		
+);
+
+CREATE TABLE Musicos(
+	Musico_ID INTEGER,
+	Nome_Real VARCHAR(30) NOT NULL,
+	Estilo VARCHA(30) NOT NULL,
+	DATA INTEGER,
+	PRIMARY KEY(Musico_ID)
+);
+
+
+
+
