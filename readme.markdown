@@ -9,7 +9,11 @@
   - [x] [pset01 - Data Models and XML](/5.%20Exercises/pset01)
   - [x] [pset02 - Modelling](/5.%20Exercises/pset02)  
   - [x] [pset03 - Mapeamento Conceitual para Lógico](/5.%20Exercises/pset03)  
-  - [x] [pset04 - Modelo Lógico - DDL](/5.%20Exercises/pset04)  
+  - [ ] [pset04 - Modelo Lógico - DDL](/5.%20Exercises/pset04)  
+  - [ ] [pset04b - Tarefa: Prática de SQL](/5.%20Exercises/pset04b)  
+  - [ ] [pset04c - Tarefa: Prática de SQL 2](/5.%20Exercises/pset04c)
+  - [ ] [pset05 -  XML Parsing e inserção de dados](/5.%20Exercises/pset05)  
+  - [ ] [pset06 - Interface de cadastro](/5.%20Exercises/pset06)  
  - [Exams](/6.%20Exams)
 
 
