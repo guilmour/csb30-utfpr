@@ -1,5 +1,5 @@
 ## Trabalho Prático - Modelo Lógico (Esquemas)
-  - [ ] Feito
+  - [x] Feito
 ### Implementação do Modelo
 
 Crie os esquemas (relações) de um banco que implemente seu modelo ER para a rede social.
@@ -15,39 +15,41 @@ Nome_Da_Relação(Chave, Atributo_1, ... Atributo_n) Atributo_y → Relação_Re
 ```
 
 ### Entrega
-```
-Filme(ID, nome, data de lançamento)
+```mysql
+Pessoa( _login_ , nome, cid_natal)
 
-Filmes_Diretores(ID_FILME, ID_DIRETOR)
-- ID_FILME: chave estrangeira para FILME
-- ID_DIRETOR: chave estrangeira para DIRETOR
+Conhece(_login_, _login2_)
+  - login, login2; [FK] -> Pessoa
 
-Filmes_Atores(ID_ATORES, ID_FILME)
-- ID_ATORES: chave estrangeira para ATORES
-- ID_FILME: chave estrangeira para FILME
+Bloqueia(_login_, _login2_, motivo)
+  - login, login2; [FK] -> Pessoa
 
-Diretor(ID, telefone, endereço)
+CurtirAstista(login, ArtistaID, Nota)
+  - login [FK] -> Pessoa
+  - ArtistaID [FK] -> ArtistaMusical
 
-Atores(ID, telefone, endereço)
+CurtirFilme(login, FilmeID, Nota)
+  - login [FK] -> Pessoa
+  - FilmeID [FK] -> Filme
 
-Atores_Diretores(ID_ATOR, ID_DIRETOR)
-- ID_ATOR: chave estrangeira para ATORES
-- ID_DIRETOR: chave estrangeira para DIRETORES
+Categoria(FilmeID, Categoria)
+  - FilmeID [FK] -> Filme
 
-Filmes_Categorias(ID_FILME, NOME_CATEGORIA)
-- ID_FILME: chave estrangeira para FILME
-- NOME_CATEGORIA: chave estrangeira para CLASSIFICAÇÃO
+ArtistaMusical(_Id_, nome_artistico, pais, genero_mus)
 
-Classificação(NOME_FILME, CATEGORIA)
-- CATEGORIA: chave estrangeira para SUBORDINADA
+Musicos(nome_real, estilo, data_nasc, ArtistaID)
+  - ArtistaID [FK] -> ArtistaMusical
 
-Subordinada(CATEGORIA, superior)
+Filme(_Id_, nome, data_estreia)
 
-Artista Musical:
-Cantor/Banda(ID, Nome Artístico, País e Gênero)
+Artista(_Id_, nome, telefone, endereco)
 
-- ID: Chave estrangeira para Músicos.
+Atua(FilmeID, AtorID)
+  - FilmeID [FK] -> Filme
+  - AtorID [FK] -> Artista
 
-Músico(ID, Nome Real, Estilo Musical e Data de Nascimento)
+Dirige(FilmeID, DiretorID)
+  - FilmeID [FK] -> Filme
+  - DiretorID [FK] -> Artista
 
 ```
