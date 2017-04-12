@@ -11,9 +11,9 @@ CREATE TABLE Conhece
 (
     login     VARCHAR(15) NOT NULL,
     login2      VARCHAR(30) NOT NULL,
-    PRIMARY KEY (login, login2)
+    PRIMARY KEY (login, login2),
     FOREIGN KEY(login)
-      REFERENCES Pessoa(login)
+      REFERENCES Pessoa(login),
     FOREIGN KEY(login2)
       REFERENCES Pessoa(login)
 );
