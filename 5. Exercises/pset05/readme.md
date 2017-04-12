@@ -1,6 +1,6 @@
 ## 1. Trabalho Prático - XML Parsing e inserção de dados
 
-  - [ ] Feito
+  - [x] Feito
 
 ### XML Parsing e inserção de dados
 Os dados da nossa rede social foram exportados para XML. Você deve criar um programa (Java, Python ou qualquer outra linguagem) que leia os XMLs com os dados e os insira no seu banco de dados. Como os dados provenientes do XML são mais simples que o modelo desenvolvido no trabalho até o momento, os grupos podem simplificar os esquemas definidos se acharem adequado. A leitura do XML deve ser feita diretamente da internet (ou seja, você não pode salvar e ler os arquivos no disco). Os arquivos estão publicados em:
